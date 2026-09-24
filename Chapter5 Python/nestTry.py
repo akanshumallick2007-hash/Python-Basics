@@ -1,0 +1,35 @@
+info={
+    "course":"BCA",
+    "data1":{
+        "name":"akanshu",
+        "co":56,
+        "cn":23,
+       "math":65,
+       "data2":{
+        "name":"anirudh",
+        "co":89,
+        "cn":78,
+       "math":25,
+       "data3":{
+        "name":"anish",
+        "co":32,
+        "cn":52,
+       "math":87,
+       "data4":{
+        "name":"arzu",
+        "co":50,
+        "cn":45,
+       "math":36,
+       "data5":{
+        "name":"rajdeep",
+        "co":98,
+        "cn":88,
+       "math":90,
+    }
+    }
+    }
+    }
+    }
+}
+print(info)
+print("Marks of Anirudh:",info["data1"]["data2"])
